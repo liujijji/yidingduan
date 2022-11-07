@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-size: 10px;
+}
+
+.bb(@w:1px,@c:#E2E2E2){
+    border-bottom: @w solid @c;
+}
+/* 头部 */
+.box{
+    width: 100%;
+    height: 4.5rem;
+    background-color: #70D1EB;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    span:nth-of-type(1){
+        width: 3rem;
+        height: 3rem;
+        margin: .75rem;
+        float: left;
+        background:url(./image/icon_arr_back.png) no-repeat 0px 0px;
+        background-size: contain;
+    }
+    span:nth-of-type(2){
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem;
+        float: right;
+        background:url(./image/icon_arr_more.png) no-repeat 0px 0px;
+        background-size: contain;
+    }
+}
+/* 内容 */
+.box1{
+    width: 100%;
+    p{
+        width: 100%;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        .bb();
+        background-color: #F2F2F2;
+        text-indent: 1rem;
+        font-size: 1.8rem;
+        color: #636262;
+    }
+    ul{
+        width: 97%;
+         margin: 0 auto;
+         li{
+            height: 4rem;
+            width: 100%;
+            line-height: 4rem;
+            .bb();
+            span:nth-of-type(1){
+                float: left;
+                width: 30%;
+                font-size: 1.8rem;
+                color: #666;
+            }
+            span:nth-of-type(2){
+                float: left;
+                width: 69%;
+                font-size: 1.6rem;
+                color: #666;
+            }
+         }
+         .list{
+            height: 8rem;
+         }
+    }
+}
