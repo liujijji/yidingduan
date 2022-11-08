@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/setRem.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 写轮播图 -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="box1">
+            <!-- 酒店 -->
+            <ul>
+                <li id="list">酒店
+                    <span class="span1"></span>
+                </li>
+                <li>海外酒店</li>
+                <li>团购</li>
+                <li>特价酒店</li>
+                <li>民宿客栈</li>
+            </ul>
+            <ul>
+                <li id="list">机票
+                    <span class="span"></span>
+                </li>
+                <li>火车票'抢票</li>
+                <li>特价机票</li>
+                <li>汽车票'船票</li>
+                <li>专车'租车</li>
+            </ul>
+            <ul>
+                <li id="list">旅游
+                    <span class="span2"></span>
+                </li>
+                <li>目的地攻略</li>
+                <li>周边游</li>
+                <li>游轮旅行</li>
+                <li>定制旅游 </li>
+            </ul>
+            <ul>
+                <li>景点'玩乐</li>
+                <li>礼品卡</li>
+                <li>美食林</li>
+                <li>WiFi·电话卡</li>
+                <li>购物·信用卡</li>
+                <li>保险·签证</li>
+            </ul>
+        </div>
+        <!-- 底部1 -->
+        <div class="box2">
+            <img src="./images/pic_sale.png" alt="">
+        </div>
+        <!-- 电话预约部分 -->
+        <div class="box3">
+            <ul>
+                <li>
+                    <span class="span4"></span>
+                    <a href="#">电话预订</a>
+                </li>
+                <li>
+                    <span class="span5"></span>
+                    <a href="#">下载客户端</a>
+                </li>
+                <li>
+                    <span class="span6"></span>
+                    <a href="#">我的携程</a>
+                </li>
+            </ul>
+        </div>
+        <!--  -->
+        <div class="box4">
+            <ul>
+                <li>ENGLISH</li>
+                <li>电脑端</li>
+                <li>意见反馈</li>
+            </ul>
+
+        </div>
+        <div class="box5">
+            <p>© 2018携程旅行 | 沪ICP备08023580号</p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    var mySwiper = new Swiper('.swiper', {
+        // effect: 'cards',
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // autoplay: true,//等同于以下设置
+        autoplay: {
+            delay: 1000,
+            stopOnLastSlide: false,
+            // stopOnLastSlide: true  loop模式下不生效
+            disableOnInteraction: false,
+        },
+
+
+    })
+</script>

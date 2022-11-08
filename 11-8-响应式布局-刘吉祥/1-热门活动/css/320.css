@@ -1,1 +1,56 @@
   /*320px到639px之间 */
+  /*大于1024px */
+  
+  * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      box-sizing: border-box;
+  }
+  
+  html {
+      font-size: 10px;
+  }
+  
+  .box {
+      width: 34rem;
+      margin: 5rem auto;
+      background-color: red;
+      box-sizing: border-box;
+  }
+  
+  .box2 {
+      width: 100%;
+      font-size: 1.8rem;
+      padding-left: 2rem;
+      line-height: 4rem;
+      font-weight: 800;
+      height: 4rem;
+  }
+  
+  .box2 span {
+      float: right;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #666;
+      padding-right: 2.9rem;
+  }
+  
+  .box ul {
+      width: 100%;
+      padding: 1rem 1rem;
+  }
+  
+  .box ul li {
+      width: 100%;
+      margin-top: 1rem;
+  }
+  
+  .box ul li img {
+      width: 100%;
+  }
+  
+  #p {
+      text-align: center;
+      font-size: 1.2rem;
+  }
