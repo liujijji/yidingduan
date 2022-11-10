@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 10px;
+}
+// 背景颜色
+@bgc:#011957;
+.box{
+    width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    background-color: @bgc;
+    min-width: 25rem;
+    .box-img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    /* 导航部分 */
+    .daohang{
+        width: 100%;
+        .ul_{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+           
+            li{
+                width: 19%;
+                margin: .9rem .49rem;
+                height: 3rem;
+                line-height: 3rem;
+               border-radius: .9rem;
+                background-color: #6745B5;
+                position: relative;
+                a{
+                    color: white;
+                    font-size: 1.4rem;
+                    span:nth-of-type(2){
+                        display: inline-block;
+                        width: 2rem;
+                        height: 2rem;
+                        background-color: #011957;
+                        border-radius: .5rem;
+                        position: absolute;
+                        line-height: 2rem;
+                        top: .5rem;
+                        right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    // /* 内容 */
+    .txt{
+        width: 100%;
+        margin-top: 10px;
+        ul{
+            width: 100%;
+            padding: 0 .9rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+              width: 49%;
+                border-radius: 1.4rem;
+                margin-top: 1rem;
+                background-color: #fff;
+            
+                img{
+                    padding: 1rem;
+                    width: 100%;
+                }
+                .text{
+                    font-size: 1.8rem;
+                    padding-left: 1rem;
+                }
+                .text1{
+                    padding-left: 1rem;
+                    position: relative;
+                    p:nth-of-type(1){
+                        color: #FF0000;
+                        font-size: 2.5rem;
+                        font-weight: 800;
+                    }
+                    p:nth-of-type(2){
+                        color: #221F1F;
+                        font-size: 2rem;
+                        text-decoration: line-through;
+                    }
+                }
+                .gomai{
+                    position: absolute;
+                    background-color: #FF0000;
+                    width: 5rem;
+                    height:  5rem;
+                    font-size: 1.8rem;
+                    font-weight:900;
+                    color: #ffffff;
+                    text-align: center;
+                    right: 1rem;
+                    bottom: 1rem;
+                    border-radius: .7rem;
+                }
+            }
+        }
+    }
+}

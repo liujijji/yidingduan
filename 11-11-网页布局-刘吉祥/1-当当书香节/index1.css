@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+}
+.box {
+  width: 76.8rem;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #011957;
+  min-width: 25rem;
+  /* 导航部分 */
+}
+.box .box-img {
+  width: 100%;
+}
+.box .box-img img {
+  width: 100%;
+}
+.box .daohang {
+  width: 100%;
+}
+.box .daohang .ul_ {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box .daohang .ul_ li {
+  width: 23%;
+  margin: 0.9rem 0.49rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 0.9rem;
+  background-color: #6745B5;
+  position: relative;
+}
+.box .daohang .ul_ li a {
+  color: white;
+  font-size: 1.4rem;
+}
+.box .daohang .ul_ li a span:nth-of-type(2) {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #011957;
+  border-radius: 0.5rem;
+  position: absolute;
+  line-height: 2rem;
+  top: 0.5rem;
+  right: 1rem;
+}
+.box .txt {
+  width: 100%;
+  margin-top: 10px;
+}
+.box .txt ul {
+  width: 100%;
+  padding: 0 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box .txt ul li {
+  width: 49%;
+  border-radius: 1.4rem;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+.box .txt ul li img {
+  padding: 1rem;
+  width: 100%;
+}
+.box .txt ul li .text {
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+.box .txt ul li .text1 {
+  padding-left: 1rem;
+  position: relative;
+}
+.box .txt ul li .text1 p:nth-of-type(1) {
+  color: #FF0000;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.box .txt ul li .text1 p:nth-of-type(2) {
+  color: #221F1F;
+  font-size: 2rem;
+  text-decoration: line-through;
+}
+.box .txt ul li .gomai {
+  position: absolute;
+  background-color: #FF0000;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 0.7rem;
+}
